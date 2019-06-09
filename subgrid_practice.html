@@ -1,23 +1,30 @@
-.wrapper {
-  display: grid;
-  grid-template-columns: 2.5fr 1fr 0.5fr;
-  gap: 20px;
-}
 
-.box1 {
-  grid-column: 1;
-  grid-row: 1;
-}
+<html>
+  <head>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 2.5fr 1fr 0.5fr;
+        gap: 20px;
+      }
 
-.box2 {
-  grid-column: 2 / 4;
-  grid-row: 1;
-}
+      .box1 {
+        grid-column: 1;
+        grid-row: 1;
+      }
 
-.box3 {
-  grid-column: 1 / -1;
-  grid-row: 2;
-}
+    .box2 {
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
+
+    .box3 {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+    </style>
+  <head>
+<body>
 
 <div class="wrapper">
   <div class="box1">A</div>
@@ -28,3 +35,7 @@
     <li>List item 3</li>
   </ul>
 </div>
+  
+<body>
+    
+<html
